@@ -1,0 +1,19 @@
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+
+.Portafolio{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 5% 10%;
+    &__title{
+        font-family: $font-secondary;
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
