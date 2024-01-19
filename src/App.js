@@ -1,5 +1,6 @@
 import './App.css';
 import Curriculum from './components/Curriculum/Curriculum'
+import Footer from './components/Footer/footer';
 import Perfil from './components/Perfil/perfil';
 import Portfolio from './components/Portafolio/portafolio';
 import { FAKE_DB } from './fakeDB/fakeDB';
@@ -12,6 +13,7 @@ function App() {
       <Perfil perfil={perfil}/>
       <Curriculum curriculumSections={curriculumSections}></Curriculum>
       <Portfolio portafolio={portafolio}/>
+      <Footer footer={footer}></Footer>
     </div>
   );
 }
