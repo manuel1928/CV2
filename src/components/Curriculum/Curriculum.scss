@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Work+Sans:100,200,400,500,600,700,900');
+// Vars
+$purple: #8d63db;
+$violet: #5b67d5;
+$gray: #f9faff;
+$aqua: #00cae5;
+$turquoise: #00e5c6;
+$neon: #bdf030;
+$dark: #464646;
+$blue: #2E9FFF;
+$white: #FFFFFF;
+$bg: darken($gray,3%); 
+
+$bg2: darken($gray,1%);
+$oswald: 'Oswald', sans-serif;
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.btns{
+   padding-top: 0;
+   padding-bottom: 0;
+   width: 230px;
+   margin: 0 10px 10px;
+  
+   font: 300 14px/50px $oswald;
+   letter-spacing: .4em;
+   text-transform: uppercase;
+  
+   border: 3px solid $white;
+   background: $white;
+   color: darken($aqua, 2%);
+  
+   &.style2 {
+     background: darken($white,4%);
+     border-color: darken($white,4%);
+     &:hover,
+     &:active {
+       border-radius: 34px;
+       background: transparent;
+       //letter-spacing: .35em;
+       color: $purple;
+       border-color: $purple;
+     }
+   } /* .style2 */  
+   &:hover,
+   &:active {
+      color: $white;
+  }
+}

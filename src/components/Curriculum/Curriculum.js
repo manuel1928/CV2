@@ -8,9 +8,9 @@ function Curriculum({ curriculumSections }) {
 
     return (
         <section className='Curriculum'>
-            <nav>
-                <button onClick={() => setShowExperience(false)}>Eduacación</button>
-                <button onClick={() => setShowExperience(true)}>Experiencia</button>
+            <nav className='nav'>
+                <button className='btns style2' onClick={() => setShowExperience(false)}>Eduacación</button>
+                <button className='btns style2' onClick={() => setShowExperience(true)}>Experiencia</button>
             </nav>
             {showExperience 
                 ? <Descriptions descriptions={experience}/>
