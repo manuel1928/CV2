@@ -1,4 +1,6 @@
 import img1 from '../img/scrapping.png';
+import img2 from '../img/AutomsticDocument.png';
+import img3 from '../img/Hacker News.png';
 
 export const FAKE_DB = {
     perfil: {
@@ -32,6 +34,14 @@ export const FAKE_DB = {
         {
             url: img1,
             alt: "scrappi"
+        },
+        {
+            url: img2,
+            alt: "Automatic Documents"
+        },
+        {
+            url: img3,
+            alt: "Hackers News"
         },
 
     ],
