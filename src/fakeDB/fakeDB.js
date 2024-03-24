@@ -37,6 +37,7 @@ export const FAKE_DB = {
     ],
     footer: {
         info: "👨‍💻 Code with passion 👨‍💻 ",
-        email: "manuel1998angel@outlook.com"
+        email: "manuel1998angel@outlook.com",
+        page: "Pagina desarrollada en react ⚛️"
     },
 }
