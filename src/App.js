@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Curriculum from './components/Curriculum/Curriculum'
 import Footer from './components/Footer/footer';
 import Perfil from './components/Perfil/perfil';

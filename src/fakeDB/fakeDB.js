@@ -1,6 +1,8 @@
 import img1 from '../img/scrapping.png';
 import img2 from '../img/AutomsticDocument.png';
 import img3 from '../img/Hacker News.png';
+import img4 from '../img/CRUD.png';
+import img5 from '../img/CRUD2.png';
 
 export const FAKE_DB = {
     perfil: {
@@ -43,6 +45,10 @@ export const FAKE_DB = {
             url: img3,
             alt: "Hackers News"
         },
+        {
+            url: [img4,img5,],
+            alt: "CRUD"
+        }
 
     ],
     footer: {
