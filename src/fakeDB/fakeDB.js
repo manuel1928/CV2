@@ -25,8 +25,8 @@ export const FAKE_DB = {
                 title: "Wed Developer",
                 year: 2019,
                 description: "Como desarrollador web, he trabajado con React, Angular y PostgreSQL,"+
-                "lo que me ha brindado una experiencia integral en la creación de aplicaciones web."+
-                " Estos frameworks y tecnologías son fundamentales en mi campo y me permiten desarrollar interfaces de usuario dinámicas y escalables,"+
+                " lo que me ha brindado una experiencia integral en la creación de aplicaciones web."+
+                " Estos frameworks y tecnologías son fundamentales en mi campo y me permiten desarrollar interfaces de usuario dinámicas y escalables, "+
                 "así como gestionar eficientemente los datos de mis aplicaciones."+
                 " Con mi experiencia en el desarrollo front-end y back-end, puedo crear soluciones web completas y eficaces, desde la presentación hasta el almacenamiento de datos."
             }
