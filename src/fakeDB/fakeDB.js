@@ -46,9 +46,13 @@ export const FAKE_DB = {
             alt: "Hackers News"
         },
         {
-            url: [img4,img5,],
+            url: img4,
             alt: "CRUD"
-        }
+        },
+        {
+            url: img5,
+            alt: "CRUD"
+        },
 
     ],
     footer: {
